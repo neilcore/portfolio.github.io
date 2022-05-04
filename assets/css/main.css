@@ -1697,7 +1697,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #F1C40F;
 			color: #fff !important;
 		}
 
@@ -2454,4 +2454,49 @@ input, select, textarea {
 
 .box.style1:hover {
 	border-color: #2E2E2E;
+}
+
+.header-introduction-to-works {
+	display: inline-block;
+	position: relative;
+
+}
+
+.header-introduction-to-works:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #F1C40F;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.header-introduction-to-works:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.soft-eng-strong {
+	display: inline-block;
+	position: relative;
+}
+
+.soft-eng-strong:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #C0392B;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.soft-eng-strong:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
