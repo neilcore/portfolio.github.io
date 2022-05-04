@@ -1974,7 +1974,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #5DADE2;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2078,8 +2078,11 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: #fff !important;
-				background: #383838;
+				/* color: #fff !important;
+				background: #383838; */
+				color: #000 !important;
+				background-color: #fff;
+
 			}
 
 			#nav a.active {
@@ -2443,3 +2446,12 @@ input, select, textarea {
 					}
 
 	}
+
+.card-link {
+	text-decoration: none;
+	color: #000;
+}
+
+.box.style1:hover {
+	border-color: #2E2E2E;
+}
